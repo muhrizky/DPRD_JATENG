@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/visimisisekre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammadrizqi.dprdjateng.Sekretariat.visimisisekre">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VISI \n"
+            android:layout_gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="​Mewujudkan Sekretariat yang berkemampuan untuk mendukung kinerja dalam pelaksanaan tugas serta fungsi DPRD yang aspiratif, transparansi dan akuntable \n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MISI \n"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="1.​ Meningkatkan kinerja dan Sumber Daya Manusia Sekretariat Dewan Perwakilan Rakyat Daerah\n\n2. Memfasilitasi secara administrasi dalam pelaksanaan tupoksi Dewan Perwakilan Rakyat Daerah \n\n3. Memfasilitasi kerjasama Anggota Dewan dengan Stakeholder \n\n4. Mendukung fungsi Dewan dalam mewujudkan kemitraan dengan eksekutif \n\n5. Memfasilitasi administrasi keuangan secara transparan dan akuntable dalam pelaksanaan tupoksi Dewan Perwakilan Rakyat Daerah"/>
+
+    </LinearLayout>
+</ScrollView>

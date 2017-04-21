@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/visimisi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".profile_activity.visimisi">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VISI\n"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="29sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="17sp"
+            android:text="​1.Meningkatkan kualitas fungsi Legislasi, fungsi anggaran dan fungsi pengawasan.\n\n2. Menumbuh kembangkan sinergi antar alat kelengkapan Dewan Perwakilan Rakyat Daerah.\n\n3. Membangun hubungan yang harmonis antar Lembaga Dewan Perwakilan Rakyat Daerah, Pemerintah Daerah dan Forum Muspida.\n\n4. Meningkatkan partisipasi publik dalam setiap proses pengambilan keputusan Dewan Perwakilan Rakyat Daerah.\n\n5. Meningkatkan komunikasi efektif dengan semua unsur masyarakat guna peningkatan  kinerja Lembaga Dewan Perwakilan Rakyat Daerah.\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MISI\n"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="29sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_gravity="center_vertical|right"
+            android:text="​Mendukung​ meningkatknya kualitas sumber daya manusia menuju Provinsi Jawa Tengah yang semakin sejahtera dan berdikari di Tahun 2016 secara berkelanjutan melalui efektifitas pelaksanaan fungsi legislasi, anggaran dan pengawasan Dewan Perwakilan Rakyat Daerah Provinsi Jawa Tengah serta penanganan aspirasi masyarakat."/>
+    </LinearLayout>
+    </ScrollView>
+</ScrollView>

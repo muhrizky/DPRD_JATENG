@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tugaswewenang"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".profile_activity.tugaswewenang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DPRD mempunyai Tugas dan Wewenang"
+            android:layout_gravity="center"
+            android:textSize="28sp"
+            android:layout_margin="8dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_margin="8dp"
+            android:layout_height="fill_parent"
+            android:textSize="17sp"
+            android:text="​1. Membentuk Peraturan Daerah bersama Gubernur;\n\n2. Membahas dan memberikan persetujuan rancangan Peraturan Daerah mengenai APBD yang diajukan oleh Gubernur;\n\n3. Melaksanakan pengawasan terhadap pelaksanaan Peraturan Daerah dan APBD;\n\n4. Mengusulkan pengangkatan dan/atau pemberhentian Gubernur dan/atau Wakil Gubernur kepada Presiden melalui Menteri Dalam Negeri untuk mendapatkan pengesahan pengangkatan dan/atau pemberhentian;\n\n5. Memilih Wakil Gubernur dalam hal terjadi kekosongan jabatan Wakil Gubernur;\n\n6. Memberikan pendapat dan pertimbangan kepada pemerintah daerah terhadap rencana perjanjian internasional di daerah;\n\n7. Memberikan persetujuan terhadap rencana kerja sama internasional yang dilakukan oleh pemerintah daerah;\n\n8. Meminta laporan keterangan pertanggungjawaban Gubernur dalam penyelenggaraan pemerintahan daerah;\n\n9. Memberikan persetujuan terhadap rencana kerja sama dengan daerah lain atau dengan pihak ketiga yang membebani masyarakat dan daerah;\n\n10. Mengupayakan terlaksananya kewajiban daerah sesuai dengan ketentuan peraturan perundang-undangan;\n\n11. Melaksanakan tugas dan wewenang lain yang diatur  dalam ketentuan peraturan perundang-undangan."
+            android:id="@+id/textView3" />
+
+    </LinearLayout>
+</ScrollView>

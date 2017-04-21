@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bapemperda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammadrizqi.dprdjateng.profile_activity.bapemperda">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="​Badan Pembentukan Peraturan Daerah merupakan alat kelengkapan DPRD yang bersifat tetap,  dibentuk dalam Rapat Paripurna DPRD.\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="1.Susunan dan keanggotaan Badan Pembentukan Peraturan Daerah dibentuk pada permulaan masa keanggotaan DPRD dan permulaan tahun sidang.\n\n
+2.Jumlah Anggota Badan Pembentukan Peraturan Daerah ditetapkan dalam Rapat Paripurna DPRD menurut perimbangan dan pemerataan jumlah Anggota Komisi.\n\n
+3.Jumlah Anggota Badan Pembentukan Peraturan Daerah berjumlah 19 (sembilan belas) anggota dengan komposisi : \n\n
+FPDI Perjuangan     :   6 (enam) orang. \n\n
+FPKB                :   3 (tiga) orang. \n\n
+FPGERINDRA          :   1 (satu) orang. \n\n
+FPG                 :   2 (dua) orang. \n\n
+FPKS                :   2 (dua) orang. \n\n
+FPD                 :   2 (dua) orang. \n\n
+FPPP                :   1 (satu) orang. \n\n
+FPAN                :   2 (dua) orang. \n\n
+4.Anggota Badan Pembentukan Peraturan Daerah diusulkan masing-masing Fraksi.\n" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Badan Pembentukan Peraturan Daerah bertugas :\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="​1.Menyusun Rancangan Program Pembentukan Peraturan Daerah yang memuat daftar urutan dan prioritas Rancangan Peraturan Daerah beserta alasannya untuk setiap tahun anggaran di lingkungan DPRD;\n\n2.Koordinasi untuk penyusunan Program Pembentukan Peraturan Daerah antara DPRD dan Pemerintah Daerah;\n\n3.Menyiapkan Rancangan Peraturan Daerah usul DPRD berdasarkan program prioritas yang telah ditetapkan;\n\n4.Melakukan pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah yang diajukan anggota, Komisi dan/atau gabungan Komisi sebelum Rancangan Peraturan Daerah tersebut disampaikan kepada Pimpinan DPRD;\n\n5.Memberikan pertimbangan terhadap Rancangan Peraturan Daerah yang diajukan oleh Anggota, Komisi dan/atau gabungan Komisi, di luar prioritas Rancangan Peraturan Daerah tahun berjalan atau di luar Rancangan Peraturan Daerah yang terdaftar dalam Program Pembentukan Peraturan Daerah;\n\n6.Mengikuti perkembangan dan melakukan evaluasi terhadap pembahasan materi muatan Rancangan Peraturan Daerah melalui koordinasi dengan Komisi dan/atau Panitia Khusus;\n\n7.Memberikan masukan kepada Pimpinan DPRD atas Rancangan Peraturan Daerah yang ditugaskan oleh Badan Musyawarah; dan\n\n8.Membuat laporan kinerja pada masa akhir keanggotaan DPRD baik yang sudah maupun yang Belum terselesaikan untuk dapat digunakan sebagai bahan oleh Komisi pada masa keanggotaan berikutnya."/>
+    </LinearLayout>
+</ScrollView>

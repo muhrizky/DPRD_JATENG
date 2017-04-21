@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/btnpdip"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fraksi_pdi"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/btnpkb"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fraksi_pkb"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/btngerinda"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fraksi_gerindra"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/btngolkar"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fraksi_golkar"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/btnpks"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fraksi_pks"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/btndemokrat"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fraksi_demokrat"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/btnppp"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fraksi_ppp"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/btnpan"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fraksi_pan"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

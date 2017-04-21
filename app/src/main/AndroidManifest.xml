@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muhammadrizqi.dprdjateng">
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:largeHeap="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- SplashScreen -->
+        <activity
+            android:name=".activity.splashscrren"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AbaoutActivity"
+            android:label="@string/activity_title_about_us" />
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:label="@string/activity_title_privacy_policy" />
+        <activity
+            android:name=".profile_activity.visimisi"
+            android:label="Visi dan Misi" />
+        <activity
+            android:name=".profile_activity.kewajibananggota"
+            android:label="Kewajiban Anggota" />
+        <activity
+            android:name=".profile_activity.bahar"
+            android:label="Badan Kehormatan" />
+        <activity
+            android:name=".profile_activity.tugaswewenang"
+            android:label="Tugas dan Wewenang" />
+        <activity
+            android:name=".profile_activity.komisi"
+            android:label="KOMISI" />
+        <activity
+            android:name=".profile_activity.bamus"
+            android:label="Badan Musyawarah" />
+        <activity
+            android:name=".profile_activity.pimpinan"
+            android:label="Pimpinan DPRD Prov JATENG" />
+        <activity
+            android:name=".profile_activity.banggar"
+            android:label="Badan Anggaran" />
+        <activity
+            android:name=".profile_activity.bapemperda"
+            android:label="Badan Pembagunan Perancangan Daerah" />
+        <activity
+            android:name=".fraksi_activity.pdip"
+            android:label="PDIP"
+            android:largeHeap="true" />
+        <activity
+            android:name=".fraksi_activity.pkb"
+            android:label="PKB"
+            android:largeHeap="true" />
+        <activity
+            android:name=".fraksi_activity.gerindra"
+            android:label="Gerindra"
+            android:largeHeap="true" />
+        <activity
+            android:name=".fraksi_activity.golkar"
+            android:label="Golkar"
+            android:largeHeap="true" />
+        <activity
+            android:name=".fraksi_activity.pks"
+            android:label="PKS"
+            android:largeHeap="true" />
+        <activity
+            android:name=".fraksi_activity.demokrat"
+            android:label="Demokrat"
+            android:largeHeap="true" />
+        <activity
+            android:name=".fraksi_activity.ppp"
+            android:label="PPP"
+            android:largeHeap="true" />
+        <activity
+            android:name=".fraksi_activity.pan"
+            android:label="PAN"
+            android:largeHeap="true" />
+        <activity
+            android:name=".Sekretariat.bagianumum"
+            android:label="Bagian Umum" />
+        <activity
+            android:name=".Sekretariat.bagianhumas"
+            android:label="Bagian Humas" />
+        <activity
+            android:name=".Sekretariat.bagiankeuangan"
+            android:label="Bagian Keuangan" />
+        <activity
+            android:name=".Sekretariat.perundangudangan"
+            android:label="Perundang Undangan" />
+        <activity
+            android:name=".Sekretariat.tugassekretariat"
+            android:label="Tugas Sekretariat" />
+        <activity
+            android:name=".Sekretariat.visimisisekre"
+            android:label="Visi Misi Sekretariat" />
+        <activity
+            android:name=".Sekretariat.strukturorganisasi"
+            android:label="Struktur Organisasi" />
+        <activity
+            android:name=".informasi_lain_activty.facebook"
+            android:label="Fanpage DPRD Prov Jateng" />
+        <activity
+            android:name=".informasi_lain_activty.twitter"
+            android:label="Twitter DPRD Prov Jateng" />
+        <activity
+            android:name=".informasi_lain_activty.webdprdjateng"
+            android:label="Laman DPRD Prov Jateng" />
+        <activity
+            android:name=".informasi_lain_activty.wartadprdjateng"
+            android:label="Portal Berita DPRD Prov Jateng" />
+        <activity
+            android:name=".profile_activity.komisi_profile.komisia"
+            android:label="KOMISI A" />
+        <activity
+            android:name=".profile_activity.komisi_profile.komisib"
+            android:label="KOMISI B" />
+        <activity
+            android:name=".profile_activity.komisi_profile.komisic"
+            android:label="KOMISI C" />
+        <activity
+            android:name=".profile_activity.komisi_profile.komisid"
+            android:label="KOMISI D" />
+        <activity
+            android:name=".profile_activity.komisi_profile.komisie"
+            android:label="KOMISI E">
+            <activity
+                android:name=".activity.DetailImageActivity"
+                android:label="Detail Gambar" />
+        </activity>
+    </application>
+
+</manifest>

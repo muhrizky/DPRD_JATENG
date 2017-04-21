@@ -1,0 +1,186 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/Bag_umum"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:background="@drawable/bag_umum_icon"
+                            android:src="@drawable/bag_umum_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/Bag_humas"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:background="@drawable/bag_humas_icon"
+                            android:src="@drawable/bag_humas_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/Bag_keuangan"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:background="@drawable/bag_keuangan_icon"
+                            android:src="@drawable/bag_keuangan_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/perundang_udangan"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:background="@drawable/perundang_icon"
+                            android:src="@drawable/perundang_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/tugas_sekretariat"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:background="@drawable/tugas_sekre_icon"
+                            android:src="@drawable/tugas_sekre_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/visi_misi_sekre"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/visi_misi_icon"
+                            android:background="@drawable/visi_misi_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                        <ImageButton
+                            android:id="@+id/struktur_organisasi"
+                            android:layout_height="fill_parent"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/struktur_orgnisasi"
+                            android:background="@drawable/struktur_orgnisasi"
+                            android:layout_width="fill_parent"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dip"
+                        android:layout_height="fill_parent">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

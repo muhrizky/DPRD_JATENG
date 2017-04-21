@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bagiankeuangan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammadrizqi.dprdjateng.Sekretariat.bagiankeuangan">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="​Bagian Keuangan mempunyai tugas melaksanakan penyiapan pelaksanaan dan pelayanan administrasi di bidang perencanaan dan anggaran, akuntansi, dan perbendaharaan untuk mendukung pelaksanaan tugas dan fungsi DPRD\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Untuk Menyelenggarakan tugas pokok, Bagian Keuangan mempunyai fungsi:\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="1.Penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang perencanaan dan anggaran.\n\n2.Penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang akuntansi;\n\n3. Penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang perbendaharaan;\n\n4. Pelaksanaan tugas lain yang diberikan oleh Sekretaris Dewan sesuai dengan tugas dan fungsinya.\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagian Keuangan membawahi beberapa sub bagian\n"
+            android:textStyle="bold"
+            android:textSize="23sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Subbagian Perencanaan dan Anggaran\n"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Sub Bagian Anggaran, mempunyai tugas melakukan penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang perencanaan dan anggaran, meliputi : penyusunan perencanaan anggaran dan pelayanan administrasi perjalanan dinas.\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Subbagian Akuntansi\n"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Sub Bagian Akuntansi, mempunyai tugas melakukan penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang akuntansi, meliputi : pengendalian keuangan, verifikasi, dan pembukuan keuangan.\n "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Subbagian Perbendaharaan\n"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Sub Bagian perbendaharaan, mempunyai tugas melakukan penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang perbendaharaan, meliputi : pembayaran keuangan pegawai, anggota dan pimpinan DPRD dan kegiatan operasiaonal Sekretaris Dewan"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bahar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_activity.bahar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="​Badan Kehormatan dibentuk oleh DPRD dan merupakan alat kelengkapan DPRD yang bersifat tetap;\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="1. Pembentukan Badan Kehormatan sebagaimana dimaksud pada ayat (1) ditetapkan dengan Keputusan DPRD.\n\n2. Anggota Badan Kehormatan sebagaimana dimaksud pada ayat (1) berjumlah 7 (tujuh) orang yang dipilih dari dan oleh Anggota DPRD.\n\n3. Pemilihan Anggota Badan Kehormatan sebagaimana dimaksud pada ayat (3), diupayakan secara musyawarah untuk mufakat.\n\n4. Apabila musyawarah untuk mufakat sebagaimana dimaksud pada ayat (4) tidak tercapai, pemilihan ditentukan berdasarkan perolehan suara terbanyak.\n\n5. Pimpinan Badan Kehormatan sebagaimana dimaksud pada ayat (1) terdiri atas 1 (satu) orang Ketua dan 1 (satu) orang Wakil Ketua yang dipilih dari dan oleh anggota Badan Kehormatan.\n\n6. Anggota Badan Kehormatan sebagaimana dimaksud pada ayat (1), dipilih dan ditetapkan dalam Rapat Paripurna DPRD berdasarkan usul dari masing-masing Fraksi.\n\n7. Untuk memilih Anggota Badan Kehormatan, masing-masing Fraksi berhak mengusulkan 1 (satu) orang calon Anggota Badan Kehormatan.\n\n8. Masa tugas Anggota Badan Kehormatan paling lama 2½ (dua setengah) tahun dan dapat dipilih kembali.\n\n9. Anggota DPRD pengganti antarwaktu menduduki tempat Anggota Badan Kehormatan yang digantikan.\n\n10. Badan Kehormatan sebagaimana dimaksud pada ayat (1) dibantu oleh Sekretariat yang secara fungsional dilaksanakan oleh Sekretariat DPRD.\n"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Badan Kehormatan  mempunyai tugas :\n"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="1. Memantau dan mengevaluasi disiplin dan/atau kepatuhan terhadap moral, kode etik, dan/atau Tata Tertib DPRD dalam rangka menjaga martabat,  kehormatan, citra, dan kredibilitas DPRD;\n\n2. Meneliti dugaan pelanggaran yang dilakukan Anggota DPRD terhadap Tata Tertib dan/atau kode etik DPRD;\n\n3. Melakukan penyidikan, verifikasi, dan klarifikasi atas pengaduan Pimpinan DPRD, Anggota DPRD, dan/atau masyarakat; dan\n\n4. Melaporkan keputusan Badan Kehormatan atas hasil penyelidikan, verifikasi, dan klarifikasi sebagaimana dimaksud pada huruf c kepada Rapat Paripurna DPRD.\n"
+            android:id="@+id/textView2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dalam melaksanakan penyelidikan, verifikasi, dan klarifikasi sebagaimana dimaksud pada ayat (1), Badan Kehormatan dapat meminta bantuan dari ahli independen. Untuk melaksanakan tugas sebagaimana dimaksud dalam Pasal 73 Badan Kehormatan berwenang :\n"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="1. Memanggil Anggota DPRD yang diduga melakukan pelanggaran kode etik dan/atau Tata Tertib DPRD untuk memberikan klarifikasi atau pembelaan atas pengaduan dugaan pelanggaran yang dilakukan;\n\n2. Meminta keterangan pengadu, saksi, dan atau pihak-pihak lain yang terkait, termasuk untuk meminta dokumen atau bukti lain; dan\n\n3. Menjatuhkan sanksi kepada Anggota DPRD yang terbukti melanggar kode etik dan/atau Tata Tertib DPRD.​"/>
+
+
+    </LinearLayout>
+</ScrollView>

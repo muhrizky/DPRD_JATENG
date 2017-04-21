@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.muhammadrizqi.dprdjateng.fragment.SettingsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mobile DPRD Jateng"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logodprdjateng"
+                android:layout_margin="@dimen/activity_vertical_margin"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_gravity="center"
+                android:text="Aplikasi Mobile DPRD Jateng adalah aplikasi untuk pengenalan DPRD Provinsi Jawa Tengah yang dikembangkan oleh Bagian Humas DPRD Jateng. Diharapkan masyarakat lebih mudah mengenal DPRD Provinsi Jateng."
+                android:textSize="18dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pengembang Aplikasi"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/activity_vertical_margin"/>
+
+            <ImageView
+                android:layout_width="201dp"
+                android:layout_height="198dp"
+                android:src="@drawable/grup_icon"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:id="@+id/imageView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Aplikasi dibuat hasil dari Kerja Praktek Kelompok Sistem Komputer Universitas Diponegoro tahun 2017. Dibuat dengan Android Studio versi 2.2.3."
+                android:textSize="17dp"
+                android:layout_margin="@dimen/activity_vertical_margin"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_gravity="center"
+                android:text="Beranggotakan \n
+            1.Muhammad Rizqi \n
+            2.Weny \n
+            3.Herdianto \n
+            4.Yuliana N"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

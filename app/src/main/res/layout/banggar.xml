@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/banggar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammadrizqi.dprdjateng.profile_activity.banggar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="​Badan Anggaran merupakan alat kelengkapan DPRD yang bersifat tetap dan dibentuk oleh DPRD pada awal masa jabatan keanggotaan DPRD.\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Anggota Badan Anggaran diusulkan oleh masing-masing Fraksi dengan  mempertimbangkan keanggotaannya dalam tiap-tiap Komisi dan berjumlah sebanyak 42 (empat puluh dua) anggota dengan komposisi :
+\nFPDI Perjuangan :  12 (dua belas) orang.\n
+FPKB           :  6 (enam) orang.\n
+FPGERINDRA     :  4 (empat) orang\n
+FPG            :  5 (lima) orang.\n
+FPKS           :  5 (lima) orang.\n
+FPD            :  4 (empat) orang.\n
+FPAN           :  4 (empat) orang.\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Badan Anggaran mempunyai tugas:\n"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="​1.Memberikan saran dan pendapat berupa pokok-pokok pikiran DPRD kepada Gubernur dalam mempersiapkan Rancangan APBD paling lambat 5 (lima) bulan sebelum ditetapkannya APBD;\n\n2.Melakukan konsultasi yang dapat diwakili oleh anggotanya kepada Komisi terkait untuk memperoleh masukan dalam rangka pembahasan Rancangan Kebijakan Umum APBD serta Prioritas dan Plafon Anggaran Sementara;\n\n3.Memberikan saran dan pendapat kepada Gubernur dalam mempersiapkan Rancangan Peraturan Daerah tentang Perubahan APBD dan Rancangan Peraturan Daerah tentang Pertanggungjawaban Pelaksanaan APBD;\n\n4.Melakukan penyempurnaan Rancangan Peraturan Daerah tentang APBD dan Rancangan Peraturan Daerah tentang Pertanggungjawaban Pelaksanaan APBD berdasarkan hasil Evaluasi Menteri Dalam Negeri bersama Tim Anggaran Pemerintah Daerah;\n\n5.Melakukan pembahasan bersama Tim Anggaran Pemerintah Daerah terhadap Rancangan KUA serta Rancangan PPAS yang disampaikan Gubernur; dan \n\n6.Memberikan saran kepada Pimpinan DPRD dalam penyusunan anggaran belanja DPRD."/>
+    </LinearLayout>
+
+</ScrollView>

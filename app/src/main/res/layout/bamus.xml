@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bamus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_activity.bamus">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="​1.Badan Musyawarah merupakan alat kelengkapan DPRD bersifat tetap dan dibentuk oleh DPRD pada awal masa jabatan keanggotaan DPRD.\n\n2.Badan Musyawarah terdiri atas unsur-unsur Fraksi berdasarkan perimbangan jumlah Anggota DPRD secara proporsional dan unsur pimpinan DPRD.\n\n3.Jumlah Badan Musyawarah sebagaimana dimaksud pada ayat (2) sebanyak 38 (tiga puluh delapan) orang dengan komposisi\n\n4.Susunan keanggotaan Badan Musyawarah ditetapkan dalam Rapat Paripurna DPRD setelah terbentuknya Pimpinan DPRD, Komisi, Badan Anggaran, dan Fraksi.\n\n5.Ketua dan Wakil Ketua DPRD karena jabatannya adalah Pimpinan Badan Musyawarah merangkap anggota.\n\n6.Sekretaris DPRD karena jabatannya adalah Sekretaris Badan Musyawarah bukan anggota.\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="italic|bold"
+            android:text="
+FPDI Perjuangan     :   12 (dua belas) orang.\n
+FPKB                :   4 (empat) orang.\n
+FPGERINDRA          :   4 (empat) orang.\n
+FPG                 :   5 (lima) orang.\n
+FPKS                :   4 (empat) orang.\n
+FPD                 :   3 (tiga) orang.\n
+FPPP                :   3 (tiga) orang.\n
+FPAN                :   3 (tiga) orang.\n\n\n"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Badan Musyawarah mempunyai tugas:\n"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="1.Menetapkan agenda DPRD untuk 1 (satu) tahun sidang, 1 (satu) masa persidangan, atau sebagian dari suatu masa sidang, perkiraan waktu penyelesaian suatu masalah, dan jangka waktu penyelesaian Rancangan Peraturan Daerah, dengan tidak mengurangi kewenangan Rapat Paripurna DPRD untuk mengubahnya;\n\n2.Memberikan pendapat kepada Pimpinan DPRD dalam menentukan garis kebijakan yang menyangkut pelaksanaan tugas dan wewenang DPRD.\n\n3.Meminta dan/atau memberikan kesempatan kepada alat kelengkapan DPRD yang lain untuk memberikan keterangan/penjelasan mengenai pelaksanaan tugas masing-masing;\n\n4.Menetapkan jadwal acara rapat DPRD;\n\n5.Memberi saran/pendapat untuk memperlancar kegiatan;\n\n6.Merekomendasikan pembentukan Panitia Khusus, Panitia Angket dan Panitia Kerja; dan\n\n7.Melaksanakan tugas lain yang diserahkan oleh Rapat Paripurna DPRD kepada Badan Musyawarah.\n​"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setiap anggota Badan Musyawarah wajib :\n"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="1.Mengadakan konsultasi dengan Fraksi sebelum mengikuti Rapat Badan Musyawarah; dan\n\n2.menyampaikan pokok-pokok hasil Rapat Badan Musyawarah kepada Fraksi."/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DPRD JATENG</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Profile</string>
+    <string name="nav_photos">Fraksi</string>
+    <string name="nav_movies">Sekretariat</string>
+    <string name="nav_notifications">Informasi Lain</string>
+    <string name="nav_settings">Tentang Aplikasi</string>
+    <string name="nav_about_us">Galeri Foto</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Profile</item>
+        <item>Fraksi</item>
+        <item>Sekretariat</item>
+        <item>Informasi Lain</item>
+        <item>Tentang Aplikasi</item>
+    </string-array>
+
+    <string name="activity_title_about_us">Galeri Foto</string>
+    <string name="activity_title_privacy_policy">Aspirasi Masyarakat</string>
+
+    <string name="privacy_policy">ASMARA</string>
+    <string name="nama">Nama Anda</string>
+</resources>

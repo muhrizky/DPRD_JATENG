@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kewajibananggota"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_activity.kewajibananggota">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="​Anggota DPRD Provinsi berkewajiban:\n"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+    android:text="​1. Memegang teguh dan mengamalkan Pancasila\n\n2. Melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan menaati peraturan perundang-undangan\n\n3. Mempertahankan dan memelihara kerukunan nasional dan keutuhan Negara Kesatuan Republik Indonesia\n\n4. Mendahulukan kepentingan negara di atas kepentingan pribadi, kelompok, dan golongan\n\n5. Memperjuangkan peningkatan kesejahteraan rakyat\n\n6. Menaati prinsip demokrasi dalam penyelenggaraan pemerintahan daerah\n\n7. Menaati tata tertib dan kode etik\n\n8. Menjaga etika dan norma dalam hubungan kerja dengan lembaga lain dalam penyelenggaraan pemerintahan daerah provinsi\n\n9. Menyerap dan menghimpun aspirasi konstituen melalui kunjungan kerja secara berkala\n\n10. Menampung dan menindaklanjuti aspirasi dan pengaduan masyarakat dan \n\n11 .Memberikan pertanggungjawaban secara moral dan politis kepada konstituen di daerah pemilihannya."/>
+    </LinearLayout>
+</ScrollView>

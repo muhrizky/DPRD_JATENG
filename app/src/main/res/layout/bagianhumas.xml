@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bagianhumas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammadrizqi.dprdjateng.Sekretariat.bagianhumas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:text="​Bidang Humas dan Pengkajian mempunyai tugas melaksanakan penyiapan pelaksanaan dan pelayanan administrasi di bidang humas dan publikasi, protokol dan aspirasi, pengkajian dan pembangunan.\n" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fungsi\n"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Penyiapan bahan pelaksaan dan pelayanan administrasi di bidang humas dan publikasi.\n\n2. Penyiapan bahan pelaksaan dan pelayanan administrasi di bidang protokol dan aspirasi.\n\n3. Penyiapan bahan pelaksaan dan pelayanan administrasi di bidang pengkajian dan pengembangan.\n\n4. Pelaksanaan tugas lain yang diberikan oleh SEKWAN sesuai dengan tugas dan fungsinya.\n"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subbagian Humas dan Publikasi\n"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Subbagian Humas dan Publikasi mempunyai tugas melakukan penyiapan bahan pelaksanaan dan pelayanan administrasi dibidang humas dan publikasi, meliputi : pelaksanaan kegiatan kehumasan, hubungan antar lembaga, dan publikasi..\n​"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subbagian Protokol dan Aspirasi\n"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Subbagian Protokol dan Aspirasi mempunyai tugas melakukan penyiapan dan pelaksaan dan pelayanan administrasi di bidang protokol dan aspirasi. Meliputi : menyiapkan pelayanan kegiatan keprotokolan dan penyerapan aspirasi masyarakat.\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subbagian Pengkajian dan Pengembangan\n"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Pengembangan mempunyai tugas melakukan penyiapan pelaksanaan dan pelayanan administrasi di bidang pengkajian dan pengembangan, meliputi : menyiapkan pelaksanaan pengkajian terhadap produk hukum, penyediaan dan pengkoordinasian tenaga ahli serta penyelenggaraan perpustakaan"/>
+    </LinearLayout>
+</ScrollView>

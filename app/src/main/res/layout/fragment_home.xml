@@ -1,0 +1,230 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageButton
+                        android:id="@+id/visimisi"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/visi_misi_icon"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/visi_misi_icon"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageButton
+                        android:id="@+id/kewajibananggota"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/kewajiban_anggota_icon"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/kewajiban_anggota_icon"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageButton
+                        android:id="@+id/badankehormatan"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/badan_kehormatan_icon"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/badan_kehormatan_icon"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageButton
+                        android:id="@+id/tugaswewenang"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/tugas_wewenang_icon"
+                        android:src="@drawable/tugas_wewenang_icon"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageButton
+                        android:id="@+id/Komisi"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/komisi_icon"
+                        android:src="@drawable/komisi_icon"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageButton
+                        android:id="@+id/bamus"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/bamus_icon"
+                        android:src="@drawable/bamus_icon"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageButton
+                        android:id="@+id/pimpinandprd"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/pimpinan_dprd_icon"
+                        android:background="@drawable/pimpinan_dprd_icon"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageButton
+                        android:id="@+id/banggar"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/banggar_icon"
+                        android:src="@drawable/banggar_icon"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageButton
+                        android:id="@+id/bapemperda"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/bapemperda_icon"
+                        android:background="@drawable/bapemperda_icon"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dip"
+                    android:layout_height="fill_parent">
+
+                </LinearLayout>
+            </LinearLayout>
+         </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

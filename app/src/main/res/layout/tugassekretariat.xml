@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tugassekretariat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammadrizqi.dprdjateng.Sekretariat.tugassekretariat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="​Sekretaris Dewan mempunyai tugas pokok menyelengarakan administrasi kesekretariatan, administrasi keuangan, mendukung pelaksanaan tugas dan fungsi DPRD dan menyediakan serta mengkoordinasikan tenaga ahli DPRD sesuai dengan kemampuan keuangan daerah.\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="1. Sekretariat Dewan menyelenggarakan fungsi : \n\n2. Penyelenggarakan administrasi kesekretariatan DPRD ; \n\n3. Penyelenggarakan administrasi keuangan DPRD ; \n\n4. enyelenggaraan rapat-rapat DPRD ; \n\n5. Penyediakan dan pengkoordinasikan tenaga ahli yang diperlukan oleh DPRD."/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bagianumum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammadrizqi.dprdjateng.Sekretariat.bagianumum">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="​Bagian Umum mempunyai tugas melaksanakan penyiapan pelaksanaan dan pelayanan administrasi di bidang tata usaha dan kepegawaian, rumah tangga dan perlengkapandi lingkungan Sekretaris Dewan.\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Untuk menyelenggarakan tugas pokok Bagian Umum mempunyai fungsi :\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="1. Penyiapan bahan pelaksanaan dan fasilitasi administrasi dibidang tata usaha dan kepegawaian;\n\n2. Penyiapan bahan pelaksanaan dan fasilitasi administrasi di bidang rumah tangga;\n\n3. Penyiapan bahan pelaksanaan dan fasilitasi administrasi di bidang perlengkapan;\n\n4. Pelaksanaan tugas lain yang diberikan oleh Sekretaris Dewan sesuai dengan tugas dan fungsinya.\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Bagian Umum, membawahi :\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Subbagian Tata Usaha dan Kepegawaian\n"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="​Sub bagian Tata Usaha dan Kepegawaian mempunyai tugas melakukan pennyiapan bahan pelaksanaan dan pelayanan administrasi di bidang, tata usaha dan kepegawaian, meliputi: pengelolaan administrasi kepegawaian, hukum, organisasi, dan tatalaksana, ketatausahaan, pengelolaan sistem informasi di lingkungan Sekertariat DPRD.\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Subbagian Rumah Tangga dan Protokol\n"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Sub Bagian Rumah Tangga Dan Protokol, mempunyai tugas melakukan penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang rumah tangga meliputi : pelaksanaan dan pelayanan teknispenyelengaraan rapat, pemeliharaan, perawatan gedung dan kantor, poliklinik, dan keamanan lingkungangedung dan kantor.\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Subbagian Perlengkapan\n"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Sub Bagian Penyusunan Program dan Perlengkapan mempunyai tugas melakukan penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang perlengkapan, meliputi : analisis kebutuhan dan pengadaan, inventarisasi, perlengkapan, pemeliharaan, kendaraan dinas."/>
+
+    </LinearLayout>
+</ScrollView>

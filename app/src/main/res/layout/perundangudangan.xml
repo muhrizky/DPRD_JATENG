@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/perundangudangan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammadrizqi.dprdjateng.Sekretariat.perundangudangan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Bagian Persidangan dan Perundang Undangan mempunyai tugas melaksanakan penyiapan pelaksanaan dan pelayanan administrasi di bidang rapat dan risalah, komisi dan kepanitiaan, dan perundang undangan.\n" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Untuk menyelenggarakan tugas pokok seagaimana dimaksud, Bagian Persidangan dan perundang undangan mempunyai fungsi.\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="1.Penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang rapat dan risalah;\n\n2.Penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang komisi dan kepanitiaan;\n\n3.Penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang penyusunan perundang-undangan;\n\n4.Pelaksanana tugas lain yang diberikan oleh Sekretatris Dean sesuai dengan tugas dan fungsinya.\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Bagian Persidangan dan Perundang-Undangan, membawahi:\n"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Subbagian Rapat dan Risalah \n"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Sub Bagian Rapat Dan Risalah, mempunyai tugas penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang rapat dan risalah, meliputi : persiapan pelaksanaan rapat-rapat dan penyusunan risalah untuk mendukung pelaksaan tugas dan fungsi DPRD.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Subbagian Komisi dan Kepanitiaan \n"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Sub Bagian Komisi dan Kepanitiaan, mempunyai tugas melakukan penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang komisi dan kepanitiaan, meliputi : penyelengaraan dan penyusunan risalah rapat komisi dan kepanitiaan, pelayanan kunjungan kerja, sidang lapangan.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Subbagian Perundang-Undangan\n"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Sub Bagian Perundang-Undangan, mempunyai tugas melakukan penyiapan bahan pelaksanaan dan pelayanan administrasi di bidang penyusunan perundang-undangan, meliputi : menyiapkan bahan peraturan perundang-undangan, menyusun rancangan keputusan pimpinan DPRD dan rancangan peraturan daerah."/>
+    </LinearLayout>
+</ScrollView>
