@@ -8,4 +8,14 @@ Aplikasi Pengenalan DPRD Provinsi  Jawa Tengah terdiri dari beberapa menu yaitu
 * Sekretariat
 * Informasi Lain
 * Tentang Aplikasi
-* Galeri Foto dan Asmara (Aspirasi Masyarakat)
+* Galeri Foto dan 
+* Asmara (Aspirasi Masyarakat)
+
+# Screenshoot Aplikasi
+* Tampilan SpalshScreen
+
+![alt text](https://raw.githubusercontent.com/muhrizky/DPRD_JATENG/master/Picture1.png)
+
+* Tampilan Main Navigation
+
+![alt text](https://raw.githubusercontent.com/muhrizky/DPRD_JATENG/master/Picture2.png)
